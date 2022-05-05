@@ -15,12 +15,16 @@ class Search extends Component {
     };
 
     onTextChange = (e) => {
-        this.setState({ [e.target.name]: e.target.value },
-            () => {
-                axios.get(`${this.state.apiUrl}/?key=${this.state.apiKey}&q=${this.state.searchText}&image_type=photo&per_page=${this.state.amount}&safesearch=true`)
+        const val = e.target.value;
+        this.setState({ [e.target.name]: val }, () => {
+            if (val === '') {
+                this.setState({ images: [] })
+            } else {
+                axios.get(`${this.state.apiUrl}/?key=${this.state.apiKey}&q=${this.state.searchText}&image_type=all&per_page=${this.state.amount}&safesearch=true`)
                     .then(res => this.setState({ images: res.data.hits }))
                     .catch(err => console.log(err));
-            });
+            }
+        });
     }
 
     onAmountChange = (e, index, value) => {
@@ -53,7 +57,7 @@ class Search extends Component {
                     <MenuItem value={50} primaryText='50' />
                 </SelectField>
                 <br />
-                {this.state.images.length > 0 ? (<ImageResult images={this.state.images} />) : null}
+                {this.state.images.length > 0 ? (<ImageResult images={this.state.images} />) : (<h1 className='preview'>Nothing to Show!!</h1>)}
             </div>
         )
     }
