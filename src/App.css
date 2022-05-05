@@ -6,3 +6,7 @@ body {
     text-align: center;
     margin-top: 2rem;
 }
+
+.field {
+    margin: 0 2rem;
+}

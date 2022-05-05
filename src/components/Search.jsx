@@ -35,7 +35,7 @@ class Search extends Component {
     render() {
         // console.log(this.state.images);
         return (
-            <div>
+            <div className='field'>
                 <TextField
                     name='searchText'
                     value={this.state.searchText}
