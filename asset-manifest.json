@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pixabay_image_finder/static/css/main.bed2a755.css",
+    "main.js": "/pixabay_image_finder/static/js/main.d4d4aec2.js",
+    "index.html": "/pixabay_image_finder/index.html",
+    "main.bed2a755.css.map": "/pixabay_image_finder/static/css/main.bed2a755.css.map",
+    "main.d4d4aec2.js.map": "/pixabay_image_finder/static/js/main.d4d4aec2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bed2a755.css",
+    "static/js/main.d4d4aec2.js"
+  ]
+}
