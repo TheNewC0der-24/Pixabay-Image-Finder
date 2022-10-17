@@ -25,7 +25,7 @@ npm install gh-pages --save-dev
 
 ## Link
 ```
-https://thenewc0der-24.github.io/pixabay_image_finder/
+https://image-finder-xi.vercel.app/
 ```
 
 ---
