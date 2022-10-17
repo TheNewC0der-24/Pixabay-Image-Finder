@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+<h1 align='center'>PixaBay Image Finder</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+An image finder application that uses the [PixaBay API](https://pixabay.com/api/docs/) to fetch images based on a query string.
+
+## Feature
+You can find images based on a search string. Also, you can **filter** out how many images you want, i.e., 5, 10, 15, 30, 50 at a time.
+
+## Built With
+| REACT.JS | Material-UI | [PixaBay API](https://pixabay.com/api/docs/) |
+| --- | --- | --- |
+
+## Installed Dependencies
+```
+npm i axios
+npm i material-ui
+npm install gh-pages --save-dev
+```
+
+## Preview 
+<p align="Center">
+  <img src="https://github.com/TheNewC0der-24/pixabay_image_finder/blob/master/Preview/Preview-1.png" width="400">
+  <img src="https://github.com/TheNewC0der-24/pixabay_image_finder/blob/master/Preview/Preview-2.png" width="400">
+</p>
+
+## Link
+```
+https://thenewc0der-24.github.io/pixabay_image_finder/
+```
+
+---
 
 ## Available Scripts
 
@@ -38,33 +66,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
